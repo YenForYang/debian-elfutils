@@ -1,0 +1,3 @@
+debian/tmp/usr/include/elfutils/libasm.h
+debian/tmp/usr/lib/x86_64-linux-gnu/libasm.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libasm.so

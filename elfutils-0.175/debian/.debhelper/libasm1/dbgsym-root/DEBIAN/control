@@ -1,0 +1,13 @@
+Package: libasm1-dbgsym
+Source: elfutils
+Version: 0.175-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kurt Roeckx <kurt@roeckx.be>
+Installed-Size: 71
+Depends: libasm1 (= 0.175-1)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libasm1
+Build-Ids: 385c38e11b348094eacbc1e2534648feeb48efae

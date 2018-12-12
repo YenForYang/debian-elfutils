@@ -1,0 +1,9 @@
+debian/tmp/usr/include/dwarf.h
+debian/tmp/usr/include/elfutils/libdw.h
+debian/tmp/usr/include/elfutils/libdwfl.h
+debian/tmp/usr/include/elfutils/libdwelf.h
+debian/tmp/usr/include/elfutils/known-dwarf.h
+debian/tmp/usr/lib/x86_64-linux-gnu/libdw.so
+debian/tmp/usr/lib/x86_64-linux-gnu/libdw.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libebl.a
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/libdw.pc

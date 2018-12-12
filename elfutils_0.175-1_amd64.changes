@@ -1,0 +1,74 @@
+Format: 1.8
+Date: Sun, 18 Nov 2018 23:01:23 +0100
+Source: elfutils
+Binary: elfutils libelf1 libelf-dev libdw-dev libdw1 libasm1 libasm-dev
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 0.175-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Kurt Roeckx <kurt@roeckx.be>
+Changed-By: Kurt Roeckx <kurt@roeckx.be>
+Description:
+ elfutils   - collection of utilities to handle ELF objects
+ libasm-dev - libasm development libraries and header files
+ libasm1    - library with a programmable assembler interface
+ libdw-dev  - libdw1 development libraries and header files
+ libdw1     - library that provides access to the DWARF debug information
+ libelf-dev - libelf1 development libraries and header files
+ libelf1    - library to read and write ELF files
+Closes: 907562 911083 911276 911413 911414
+Changes:
+ elfutils (0.175-1) unstable; urgency=medium
+ .
+   * New upstream release
+     - Build with gcc-8 (Closes: #911276)
+     - Drop fix-gcc7-ftbfs.diff
+     - Drop GNU_variable_value.patch
+     - Drop locviews.patch
+     - Update patches
+   * Fixes CVE-2018-18521 (Closes: #911413)
+   * Fixes CVE-2018-18520 (Closes: #911414)
+   * Fixes CVE-2018-18310 (Closes: #911083)
+   * Fixes CVE-2018-16403
+   * Fixes CVE-2018-16402
+   * Fixes CVE-2018-16062 (Closes: #907562)
+Checksums-Sha1:
+ dca86e780383883d751cdce2db084b6d0b7b2259 554036 elfutils-dbgsym_0.175-1_amd64.deb
+ 8d4e4d76b7d1f3b71b5f86cfef84434a5b2e7bf6 7701 elfutils_0.175-1_amd64.buildinfo
+ 69080be509b78292f12e03ed99a57be7d5a0a96f 317640 elfutils_0.175-1_amd64.deb
+ 52ca2e39344e0d56b273f2629a1ca006017ffe3d 405256 libasm-dev_0.175-1_amd64.deb
+ 51d0c85d3ea9a1674918ccfab65f5907b1223dc8 51940 libasm1-dbgsym_0.175-1_amd64.deb
+ a99cdb4c78e7557e1d5c6aa6abb171c9a31393fe 44024 libasm1_0.175-1_amd64.deb
+ 276ae31cef6dad97c7027b36d90978c93a2a963d 3321364 libdw-dev_0.175-1_amd64.deb
+ 73dae2fe602ceae1547b32a5617a43a1aef879a5 938588 libdw1-dbgsym_0.175-1_amd64.deb
+ e7092e8a4fc79bbc7b116dd6b415d8a0bcf85900 292348 libdw1_0.175-1_amd64.deb
+ c15fb29ed6fe24f57d45d95cd88aba426ad568a8 1094124 libelf-dev_0.175-1_amd64.deb
+ 4e2f0f17596d2420000c01f0730dd0818483a8ee 203248 libelf1-dbgsym_0.175-1_amd64.deb
+ a15505ec197606581e5695b385e4709addb8fbd2 184324 libelf1_0.175-1_amd64.deb
+Checksums-Sha256:
+ be69a9aac200581d7af5ae516717b5757ba6da00099f4b0f38d3cd5796e3246c 554036 elfutils-dbgsym_0.175-1_amd64.deb
+ 153a470300423beabb97717d201b7b36e104ab0d1fe346a19c230b81d38f6685 7701 elfutils_0.175-1_amd64.buildinfo
+ cfca834c4b6f6b5d19ccc2093e94fc3b7b7d8b1d0d7fac94186da052901abc59 317640 elfutils_0.175-1_amd64.deb
+ 052cb79323957c408182d9031ff66175bacf52e890f839735c1b28e804264e81 405256 libasm-dev_0.175-1_amd64.deb
+ bc5da54b492155019e0be2a1f1529d8192b4d4c8bd3e5415ae32cafc12de3b62 51940 libasm1-dbgsym_0.175-1_amd64.deb
+ 0de9b702558243a46892c088fd42266202dde74b6ab049325b0890d76b828b2b 44024 libasm1_0.175-1_amd64.deb
+ e7843f2632baa2d6e48aa907b6047fe841723af6bfdeabe51580a8e5b913cef9 3321364 libdw-dev_0.175-1_amd64.deb
+ 0fdb03fb77a54a3a2b0ec62674e59846fb0a7ad46a548ba829100b095c4d146c 938588 libdw1-dbgsym_0.175-1_amd64.deb
+ 2219245f7834eff983d1426cc68f3467b497dffc6a85be54401e8a02a7f748d9 292348 libdw1_0.175-1_amd64.deb
+ cfeb44ed6dffabc4058f5312037958b798c3d56a5e4fba32cbe352641ffdff13 1094124 libelf-dev_0.175-1_amd64.deb
+ 97e051fd22783063c305c6d37f146884002701e0f1fd091cce187d223c14ab77 203248 libelf1-dbgsym_0.175-1_amd64.deb
+ 1d0a367c81c50721e16c57020062927d09fe033eecfa7f510ef33dbdf094200e 184324 libelf1_0.175-1_amd64.deb
+Files:
+ 5ada7ee3061eec3644d4062618768d06 554036 debug optional elfutils-dbgsym_0.175-1_amd64.deb
+ de84b1f4ef784630a9c14df26b9e24fa 7701 libs optional elfutils_0.175-1_amd64.buildinfo
+ 712b362b6dc188ab6762226c26712e1e 317640 utils optional elfutils_0.175-1_amd64.deb
+ c61a27a8b9b5554d86f7872225e9bae5 405256 libdevel optional libasm-dev_0.175-1_amd64.deb
+ 9f55dcacd927a6cc9d689b9ba7077d74 51940 debug optional libasm1-dbgsym_0.175-1_amd64.deb
+ 0dd09c03b7324e748c4fed8e94ea30ef 44024 libs optional libasm1_0.175-1_amd64.deb
+ 58c0c4c14bbd7bc206052f6059ddc67a 3321364 libdevel optional libdw-dev_0.175-1_amd64.deb
+ ea3a381ee5785a05ecd340b68a548c32 938588 debug optional libdw1-dbgsym_0.175-1_amd64.deb
+ e70b7268cc692f62015bed9cb4354691 292348 libs optional libdw1_0.175-1_amd64.deb
+ ebffaabb19a7e679453c6e1fcf8de78c 1094124 libdevel optional libelf-dev_0.175-1_amd64.deb
+ 94f1e44cb6ca24ccc087dab994211649 203248 debug optional libelf1-dbgsym_0.175-1_amd64.deb
+ e03edf0847cd3ef005cb18004d5f0fa9 184324 libs optional libelf1_0.175-1_amd64.deb

@@ -1,0 +1,16 @@
+Package: libasm-dev
+Source: elfutils
+Version: 0.175-1
+Architecture: amd64
+Maintainer: Kurt Roeckx <kurt@roeckx.be>
+Installed-Size: 4287
+Depends: libasm1 (= 0.175-1), libelf-dev
+Conflicts: libasm0-dev, libelfsh0-dev
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://sourceware.org/elfutils/
+Description: libasm development libraries and header files
+ libasm1 allows you to create ELF files on a low level.
+ .
+ This package contains development libraries and header files for libasm1.

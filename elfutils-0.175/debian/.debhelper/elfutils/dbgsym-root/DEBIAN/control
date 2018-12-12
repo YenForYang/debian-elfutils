@@ -1,0 +1,12 @@
+Package: elfutils-dbgsym
+Source: elfutils
+Version: 0.175-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kurt Roeckx <kurt@roeckx.be>
+Installed-Size: 774
+Depends: elfutils (= 0.175-1)
+Section: debug
+Priority: optional
+Description: debug symbols for elfutils
+Build-Ids: 149bd3b983da7d3ff51d5c4b720ba5ad34eb57a4 17be79a54dd054454bca5c8d2f8bdd13937b9bac 3e50df8328706d1e2d8591e386bcfc9eaa5813c6 5708e0e9e3899a82bdf76fd7eb3f6c13989d7076 86670d98a773c8321ac4a0268c80be194a14bb02 87dfb1badc1c1ea48d94ca1519892514256f2b6d a9b2474387a43327bfc2e4dd92446fdefdfb6596 a9c1a3d9185aaf64dcb4d19abf4dd348ff454810 b713e502d752a3a863ab7077d9f0c086809fc7ee c70b1f47dab478e04508345ee3a661bba7ce2f36 d11e7b306854993896585b42182152132ac60d31 d5e2dd8226f132b3b6a3b0f232c5c43967fed425 e179c5580433659b0bbfe9074b31a9468e73a48b e326a4b38840e943febbbfbc18e709066499df44 e81fe1ce0c8f0883741a5ee3c15b0d7ef83c11e8

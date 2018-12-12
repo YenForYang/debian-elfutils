@@ -1,0 +1,16 @@
+Package: elfutils
+Version: 0.175-1
+Architecture: amd64
+Maintainer: Kurt Roeckx <kurt@roeckx.be>
+Installed-Size: 1731
+Depends: libasm1 (>= 0.132), libc6 (>= 2.14), libdw1 (= 0.175-1), libelf1 (= 0.175-1), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1)
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://sourceware.org/elfutils/
+Description: collection of utilities to handle ELF objects
+ Elfutils is a collection of utilities, including eu-ld (a linker),
+ eu-nm (for listing symbols from object files), eu-size (for listing the
+ section sizes of an object or archive file), eu-strip (for discarding
+ symbols), eu-readelf (to see the raw ELF file structures), and eu-elflint
+ (to check for well-formed ELF files).

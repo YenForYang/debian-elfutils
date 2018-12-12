@@ -1,0 +1,16 @@
+Package: libasm1
+Source: elfutils
+Version: 0.175-1
+Architecture: amd64
+Maintainer: Kurt Roeckx <kurt@roeckx.be>
+Installed-Size: 132
+Depends: libc6 (>= 2.14), libdw1 (= 0.175-1), libelf1 (= 0.175-1), libgcc1 (>= 1:3.0)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://sourceware.org/elfutils/
+Description: library with a programmable assembler interface
+ The libasm1 package provides a library with a programmable assembler
+ interface.  It allows you to create ELF files on a low level.
+ .
+ This library is part of elfutils.

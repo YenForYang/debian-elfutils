@@ -1,0 +1,19 @@
+Package: libdw-dev
+Source: elfutils
+Version: 0.175-1
+Architecture: amd64
+Maintainer: Kurt Roeckx <kurt@roeckx.be>
+Installed-Size: 42535
+Depends: libelf-dev, libdw1 (= 0.175-1), zlib1g-dev, liblzma-dev
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://sourceware.org/elfutils/
+Description: libdw1 development libraries and header files
+ libdw1 provides a library that provides access to DWARF debug information
+ stored inside ELF files.
+ .
+ This package contains development libraries and header files for libdw1.
+ .
+ It also contains a static version of libdw.  Only link to the static version
+ for special cases and when you don't need anything from the ebl backends.

@@ -1,0 +1,6 @@
+next_prime.o: next_prime.c /usr/include/stdc-predef.h \
+ /opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stddef.h
+
+/usr/include/stdc-predef.h:
+
+/opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stddef.h:

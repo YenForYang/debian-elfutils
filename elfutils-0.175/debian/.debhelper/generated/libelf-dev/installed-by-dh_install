@@ -1,0 +1,8 @@
+debian/tmp/usr/include/libelf.h
+debian/tmp/usr/include/gelf.h
+debian/tmp/usr/include/nlist.h
+debian/tmp/usr/include/elfutils/elf-knowledge.h
+debian/tmp/usr/include/elfutils/version.h
+debian/tmp/usr/lib/x86_64-linux-gnu/libelf.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libelf.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/libelf.pc

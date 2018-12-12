@@ -1,0 +1,211 @@
+Format: 1.0
+Source: elfutils
+Binary: elfutils libelf1 libelf-dev libdw-dev libdw1 libasm1 libasm-dev
+Architecture: amd64
+Version: 0.175-1
+Checksums-Md5:
+ 5ada7ee3061eec3644d4062618768d06 554036 elfutils-dbgsym_0.175-1_amd64.deb
+ 712b362b6dc188ab6762226c26712e1e 317640 elfutils_0.175-1_amd64.deb
+ c61a27a8b9b5554d86f7872225e9bae5 405256 libasm-dev_0.175-1_amd64.deb
+ 9f55dcacd927a6cc9d689b9ba7077d74 51940 libasm1-dbgsym_0.175-1_amd64.deb
+ 0dd09c03b7324e748c4fed8e94ea30ef 44024 libasm1_0.175-1_amd64.deb
+ 58c0c4c14bbd7bc206052f6059ddc67a 3321364 libdw-dev_0.175-1_amd64.deb
+ ea3a381ee5785a05ecd340b68a548c32 938588 libdw1-dbgsym_0.175-1_amd64.deb
+ e70b7268cc692f62015bed9cb4354691 292348 libdw1_0.175-1_amd64.deb
+ ebffaabb19a7e679453c6e1fcf8de78c 1094124 libelf-dev_0.175-1_amd64.deb
+ 94f1e44cb6ca24ccc087dab994211649 203248 libelf1-dbgsym_0.175-1_amd64.deb
+ e03edf0847cd3ef005cb18004d5f0fa9 184324 libelf1_0.175-1_amd64.deb
+Checksums-Sha1:
+ dca86e780383883d751cdce2db084b6d0b7b2259 554036 elfutils-dbgsym_0.175-1_amd64.deb
+ 69080be509b78292f12e03ed99a57be7d5a0a96f 317640 elfutils_0.175-1_amd64.deb
+ 52ca2e39344e0d56b273f2629a1ca006017ffe3d 405256 libasm-dev_0.175-1_amd64.deb
+ 51d0c85d3ea9a1674918ccfab65f5907b1223dc8 51940 libasm1-dbgsym_0.175-1_amd64.deb
+ a99cdb4c78e7557e1d5c6aa6abb171c9a31393fe 44024 libasm1_0.175-1_amd64.deb
+ 276ae31cef6dad97c7027b36d90978c93a2a963d 3321364 libdw-dev_0.175-1_amd64.deb
+ 73dae2fe602ceae1547b32a5617a43a1aef879a5 938588 libdw1-dbgsym_0.175-1_amd64.deb
+ e7092e8a4fc79bbc7b116dd6b415d8a0bcf85900 292348 libdw1_0.175-1_amd64.deb
+ c15fb29ed6fe24f57d45d95cd88aba426ad568a8 1094124 libelf-dev_0.175-1_amd64.deb
+ 4e2f0f17596d2420000c01f0730dd0818483a8ee 203248 libelf1-dbgsym_0.175-1_amd64.deb
+ a15505ec197606581e5695b385e4709addb8fbd2 184324 libelf1_0.175-1_amd64.deb
+Checksums-Sha256:
+ be69a9aac200581d7af5ae516717b5757ba6da00099f4b0f38d3cd5796e3246c 554036 elfutils-dbgsym_0.175-1_amd64.deb
+ cfca834c4b6f6b5d19ccc2093e94fc3b7b7d8b1d0d7fac94186da052901abc59 317640 elfutils_0.175-1_amd64.deb
+ 052cb79323957c408182d9031ff66175bacf52e890f839735c1b28e804264e81 405256 libasm-dev_0.175-1_amd64.deb
+ bc5da54b492155019e0be2a1f1529d8192b4d4c8bd3e5415ae32cafc12de3b62 51940 libasm1-dbgsym_0.175-1_amd64.deb
+ 0de9b702558243a46892c088fd42266202dde74b6ab049325b0890d76b828b2b 44024 libasm1_0.175-1_amd64.deb
+ e7843f2632baa2d6e48aa907b6047fe841723af6bfdeabe51580a8e5b913cef9 3321364 libdw-dev_0.175-1_amd64.deb
+ 0fdb03fb77a54a3a2b0ec62674e59846fb0a7ad46a548ba829100b095c4d146c 938588 libdw1-dbgsym_0.175-1_amd64.deb
+ 2219245f7834eff983d1426cc68f3467b497dffc6a85be54401e8a02a7f748d9 292348 libdw1_0.175-1_amd64.deb
+ cfeb44ed6dffabc4058f5312037958b798c3d56a5e4fba32cbe352641ffdff13 1094124 libelf-dev_0.175-1_amd64.deb
+ 97e051fd22783063c305c6d37f146884002701e0f1fd091cce187d223c14ab77 203248 libelf1-dbgsym_0.175-1_amd64.deb
+ 1d0a367c81c50721e16c57020062927d09fe033eecfa7f510ef33dbdf094200e 184324 libelf1_0.175-1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Wed, 12 Dec 2018 05:34:20 +0100
+Installed-Build-Depends:
+ autoconf (= 2.69-11),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-2),
+ autotools-dev (= 20180224.1),
+ base-files (= 10.1),
+ base-passwd (= 3.5.45),
+ bash (= 4.4.18-3.1),
+ binutils (= 2.31.1-10),
+ binutils-common (= 2.31.1-10),
+ binutils-x86-64-linux-gnu (= 2.31.1-10),
+ bison (= 2:3.2.2.dfsg-1),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.32.1-0.1),
+ build-essential (= 12.5),
+ bzip2 (= 1.0.6-9),
+ coreutils (= 8.30-1),
+ cpp (= 4:8.2.0-2),
+ cpp-7 (= 7.3.0-30),
+ cpp-8 (= 8.2.0-9),
+ dash (= 0.5.10.2-2),
+ debconf (= 1.5.69),
+ debhelper (= 11.5.4),
+ debianutils (= 4.8.6),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 0.45.0-1),
+ diffutils (= 1:3.6-1),
+ dpkg (= 1.19.2),
+ dpkg-dev (= 1.19.2),
+ dwz (= 0.12-2),
+ fdisk (= 2.32.1-0.1),
+ file (= 1:5.35-1),
+ findutils (= 4.6.0+git+20181018-1),
+ flex (= 2.6.4-6.2),
+ g++ (= 4:8.2.0-2),
+ g++-8 (= 8.2.0-9),
+ gawk (= 1:4.2.1+dfsg-1),
+ gcc (= 4:8.2.0-2),
+ gcc-7 (= 7.3.0-30),
+ gcc-7-base (= 7.3.0-30),
+ gcc-8 (= 8.2.0-9),
+ gcc-8-base (= 8.2.0-9),
+ gettext (= 0.19.8.1-2),
+ gettext-base (= 0.19.8.1-2),
+ grep (= 3.1-2),
+ groff-base (= 1.22.3-10),
+ gzip (= 1.9-2.1),
+ hostname (= 3.21),
+ init-system-helpers (= 1.56),
+ install-info (= 6.5.0.dfsg.1-4),
+ intel-comp-ps-ss-bec-19.0.1-144 (= 19.0.1-144),
+ intltool-debian (= 0.35.0+20060710.4),
+ libacl1 (= 2.2.52-3+b1),
+ libarchive-zip-perl (= 1.64-1),
+ libasan4 (= 7.3.0-30),
+ libasan5 (= 8.2.0-9),
+ libatomic1 (= 8.2.0-9),
+ libattr1 (= 1:2.4.47-2+b2),
+ libaudit-common (= 1:2.8.4-2),
+ libaudit1 (= 1:2.8.4-2),
+ libbinutils (= 2.31.1-10),
+ libbison-dev (= 2:3.2.2.dfsg-1),
+ libblkid1 (= 2.32.1-0.1),
+ libbsd0 (= 0.9.1-1),
+ libbz2-1.0 (= 1.0.6-9),
+ libbz2-dev (= 1.0.6-9),
+ libc-bin (= 2.27-8),
+ libc-dev-bin (= 2.27-8),
+ libc6 (= 2.27-8),
+ libc6-dev (= 2.27-8),
+ libcap-ng0 (= 0.7.9-1),
+ libcc1-0 (= 8.2.0-9),
+ libcilkrts5 (= 7.3.0-30),
+ libcroco3 (= 0.6.12-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.2),
+ libdebconfclient0 (= 0.245),
+ libdpkg-perl (= 1.19.2),
+ libelf1 (= 0.170-0.5),
+ libfdisk1 (= 2.32.1-0.1),
+ libffi6 (= 3.2.1-9),
+ libfile-stripnondeterminism-perl (= 0.45.0-1),
+ libgcc-7-dev (= 7.3.0-30),
+ libgcc-8-dev (= 8.2.0-9),
+ libgcc1 (= 1:8.2.0-9),
+ libgcrypt20 (= 1.8.4-3),
+ libgdbm-compat4 (= 1.18.1-2),
+ libgdbm6 (= 1.18.1-2),
+ libglib2.0-0 (= 2.58.1-2),
+ libgmp10 (= 2:6.1.2+dfsg-3),
+ libgomp1 (= 8.2.0-9),
+ libgpg-error0 (= 1.32-3),
+ libicu63 (= 63.1-4),
+ libisl19 (= 0.20-2),
+ libitm1 (= 8.2.0-9),
+ liblsan0 (= 8.2.0-9),
+ liblz4-1 (= 1.8.2-1),
+ liblzma-dev (= 5.2.4-1),
+ liblzma5 (= 5.2.4-1),
+ libmagic-mgc (= 1:5.35-1),
+ libmagic1 (= 1:5.35-1),
+ libmount1 (= 2.32.1-0.1),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.1-1),
+ libmpx2 (= 8.2.0-9),
+ libncursesw6 (= 6.1+20181013-1),
+ libpam-modules (= 1.1.8-3.8),
+ libpam-modules-bin (= 1.1.8-3.8),
+ libpam-runtime (= 1.1.8-3.8),
+ libpam0g (= 1.1.8-3.8),
+ libpcre3 (= 2:8.39-11),
+ libperl5.28 (= 5.28.1-1),
+ libpipeline1 (= 1.5.0-2),
+ libquadmath0 (= 8.2.0-9),
+ libreadline7 (= 7.0-5),
+ libseccomp2 (= 2.3.3-3),
+ libselinux1 (= 2.8-1+b1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.32.1-0.1),
+ libstdc++-8-dev (= 8.2.0-9),
+ libstdc++6 (= 8.2.0-9),
+ libsystemd0 (= 239-13),
+ libtinfo5 (= 6.1+20181013-1),
+ libtinfo6 (= 6.1+20181013-1),
+ libtool (= 2.4.6-6),
+ libtsan0 (= 8.2.0-9),
+ libubsan0 (= 7.3.0-30),
+ libubsan1 (= 8.2.0-9),
+ libudev1 (= 239-13),
+ libunistring0 (= 0.9.6+really0.9.3-0.1),
+ libuuid1 (= 2.32.1-0.1),
+ libxml2 (= 2.9.8-1),
+ linux-libc-dev (= 4.18.20-2),
+ login (= 1:4.5-1.1),
+ m4 (= 1.4.18-2),
+ make (= 4.2.1-1.2),
+ man-db (= 2.8.4-3),
+ mawk (= 1.3.3-17),
+ ncurses-base (= 6.1+20181013-1),
+ ncurses-bin (= 6.1+20181013-1),
+ patch (= 2.7.6-3),
+ perl (= 5.28.1-1),
+ perl-base (= 5.28.1-1),
+ perl-modules-5.28 (= 5.28.1-1),
+ po-debconf (= 1.0.21),
+ readline-common (= 7.0-5),
+ sed (= 4.5-2),
+ sensible-utils (= 0.0.12),
+ sysvinit-utils (= 2.92~beta-2),
+ tar (= 1.30+dfsg-3),
+ util-linux (= 2.32.1-0.1),
+ xz-utils (= 5.2.4-1),
+ zlib1g (= 1:1.2.11.dfsg-1),
+ zlib1g-dev (= 1:1.2.11.dfsg-1)
+Environment:
+ AR="xiar"
+ CC="icc"
+ CXX="icpc"
+ DEB_BUILD_OPTIONS="nocheck nodoc parallel=8"
+ DEB_BUILD_PROFILES="nobiarch nocheck nodoc"
+ DEB_CFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/libelf/elfutils-0.175=. -fstack-protector-strong -Wformat -Werror=format-security -march=native -pipe"
+ DEB_CXXFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/libelf/elfutils-0.175=. -fstack-protector-strong -Wformat -Werror=format-security -march=native -pipe"
+ DEB_LDFLAGS_SET="-Wl,-z,relro -Wl,--as-needed,--gc-sections,--relax"
+ LANG="en_US.UTF-8"
+ LC_CTYPE="en_US.UTF-8"
+ LD="xild"
+ LD_LIBRARY_PATH="/opt/intel/lib/intel64_lin:/opt/intel/tbb/lib/intel64/gcc4.7"
+ SOURCE_DATE_EPOCH="1542578483"
